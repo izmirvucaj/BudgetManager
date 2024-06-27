@@ -1,0 +1,18 @@
+/* Dashboard.css */
+
+.dashboard-container {
+   /* Arka plan rengi */
+  padding: 20px; /* İçeriğin kenar boşluğu */
+}
+
+.balance-card {
+  background-color: #e7be50; 
+}
+
+.income-card {
+  background-color: #82ca61; 
+}
+
+.expenses-card {
+  background-color: #f58b8b; 
+}

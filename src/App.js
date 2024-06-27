@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LoginForm from './Components/LoginForm/LoginForm';
+import Welcome from './Components/welcome';
 import './App.css';
 
 function App() {
+  const [username, setUsername] = useState(''); // Kullanıcının adını saklamak için durum
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<LoginForm setUsername={setUsername} />} />
+          <Route path="/welcome" element={<Welcome username={username} />} /> {/* Kullanıcı adını prop olarak geçin */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

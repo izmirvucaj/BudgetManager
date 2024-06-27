@@ -1,0 +1,46 @@
+/* Profile.css */
+
+
+
+.profile-container {
+  
+  padding: 20px;
+  box-shadow: 0 3px 3px rgba(5, 160, 244, 0.1);
+}
+
+
+.card-title {
+  font-size: 24px;
+  color: #ffffff; /* Beyaz renk */
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #068ff1; /* Mavi tonu */
+  padding: 10px;
+  
+}
+
+.card-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Beyaz arka plan */
+  border: 3px solid #249cf1; /* Kenar rengi */
+  border-bottom-left-radius: 10px; /* Sol alt köşeyi yuvarlatma */
+  border-bottom-right-radius: 10px; /* Sağ alt köşeyi yuvarlatma */
+}
+
+.card-content {
+  font-size: 18px; /* Metin büyüklüğü */
+  color: #249cf1; /* Koyu gri metin rengi */
+  margin-bottom: 12px;
+}
+
+.card-content:first-child {
+  margin-top: 15px;
+}
+
+.card-content:last-child {
+  margin-bottom: 0;
+}

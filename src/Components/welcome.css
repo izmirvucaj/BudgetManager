@@ -1,0 +1,13 @@
+/* Welcome.css */
+.custom-menu {
+    background-color: #f9f9f9 !important;
+  }
+  
+  .custom-menu .ant-menu-item-selected {
+    background-color: #deebf6 !important; 
+  }
+  
+  .custom-menu .ant-menu-item:hover {
+    background-color: #368ae4 !important;
+  }
+  

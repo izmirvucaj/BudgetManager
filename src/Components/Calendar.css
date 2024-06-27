@@ -1,0 +1,33 @@
+/* Calendar.css */
+
+.calendar-wrapper {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(44, 137, 242); /* Arka plan rengi */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-container {
+    background-color: #fff; /* Takvimin arka plan rengi */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.events li {
+    margin-bottom: 8px;
+}
+
+/* Özel günlerin stillemesi */
+.ant-picker-cell-in-view {
+    background: rgba(141, 145, 147, 0.1); /* Tüm günlerin arka plan rengi */
+}
+
+.ant-picker-cell-today .ant-picker-cell-inner {
+    background-color: #8bc3f7; /* Bugünün arka plan rengi */
+    border-radius: 50%;
+    color: #ffffff; /* Bugünün metin rengi */
+}
+
+

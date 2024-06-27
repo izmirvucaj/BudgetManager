@@ -1,0 +1,50 @@
+/* timeline.css */
+
+.timeline-wrapper {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(44, 137, 242); /* rgb(44, 137, 242) */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.timeline-wrapper h4 {
+    text-align: center;
+    margin-bottom:40px ;
+    color: #333;
+}
+
+.timeline-wrapper .ant-timeline-item {
+    padding-left: 20px;
+}
+
+.timeline-wrapper .ant-timeline-item-head {
+    border-width:6px;
+}
+
+.timeline-wrapper .ant-timeline-item-tail {
+    border-left-width: 2px;
+}
+
+.timeline-wrapper .ant-timeline-item-content {
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific colors for income and expense items */
+.timeline-wrapper .income .ant-timeline-item-head {
+    border-color: green;
+   
+    
+}
+
+.timeline-wrapper .expense .ant-timeline-item-head {
+    border-color: red;
+   
+    
+}
